@@ -79,9 +79,8 @@ nav
     background-color: rgb(250, 235, 215);
     display: flex;
     flex-direction: column;
-    position: fixed;
     right: 0;
-    top: 10vh;
+    top: 0vh;
     transform: translateX(100vw);
     transition: 0.3s all ease-in-out;
     z-index: 10;
