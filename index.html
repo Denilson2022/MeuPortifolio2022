@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu-responsive.css">
+    <title>Denilson da Silva</title>
+    </head>
+    <body>
+        <div class="container" >
+        <input type="checkbox" onclick="menuResponsive()" onclick="delay()" id="checkbox-menu">
+        <label for="checkbox-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+      </div>
+    <div class="click"></div>
+
+        <header>
+            <nav class="nav">
+              <div class="logo">DS</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobreMim">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+          </nav>
+        </header>
+    
+        <section class="bloco" id="home">
+            <div class="wrapper">
+                <div class="cols cols0">
+                    <span class="topline">Olá</span>
+                    <h1>Eu sou desenvovedor <br><span class="multiText"></span></h1>
+                    <p>E me chamo Denilson da Silva.</p>
+                    <div class="btns">
+                        <button>Contato</button>
+                    </div>
+                </div>
+                <div class="cols cols1">
+                    <div class="imgbox">
+                        <img src="jpg/splash.png" id="splash">
+                        <img src="jpg/doc1.png" alt="" >
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="sobreMim">
+        <h2 data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" id="h2">Sou formado em Direito, mas foi na tecnologia que encontrei o prazer de trabalhar com e alegria.</h2>
+        <div class="box">
+            <div class="content">
+                <img src="jpg/doc2.png" alt="" srcset="">
+                <h2>Denilson da silva<br><span>Desenvolvedor fornt-end</span></h2>
+                <a href="#">Contrate-me</a>    
+            </div>
+        </div>
+    </section>
+    <section id="projetos"><h2 id="demotext">Projetos</h2>
+        <div id="myProjects">
+        <div data-aos="zoom-in" class="project" id="project1">
+            <div class="transversal">Em breve!</div>
+        </div>
+        <div data-aos="zoom-in" class="project" id="project2">
+            <div class="transversal">Em breve!</div>
+        </div>
+        <div data-aos="zoom-in" class="project" id="project3">
+            <div class="transversal">Em breve!</div>
+        </div>
+        <div data-aos="zoom-in" class="project" id="project4">
+            <div class="transversal">Em breve!</div>
+        </div>
+    </div>
+    </section>
+    <section id="habilidades"><h2 id="demotext">Habilidades</h2>
+        <div id="container-abilities">
+        <h2 id="text"></h2>
+        <div id="skills">
+        <h2 id="title-skills">Passe por cima da opção desejada!</h2>
+        <div class="imageSup">
+                <img id="html" src="jpg/html.png" alt="" srcset="">
+                <img id="css" src="jpg/css.png" alt="" srcset="">
+            </div>
+            <div class="imageSub">
+                <img id="sass" src="jpg/sass.png" alt="" srcset="">
+                <img id="javascript" src="jpg/javascript.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+</section>
+    <footer id="footer">
+      <div id="center">E-mail para contato: <span>denilson_email@yahoo.com.br</span></div>
+      <div id="center">Celular (whatsapp): <span>(11) 95821-3932</span></div>
+      <div id="center">Feito por <span>Denilson da Silva</span></div>
+      <div id="images-socials">
+          <img id="github" src="jpg/github.png" alt="" srcset="">
+          <img id="linkedin" src="jpg/linkedin.png" alt="" srcset="">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <script src="menu-responsive.js"></script>
+    <script src="js.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

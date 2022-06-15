@@ -1,0 +1,258 @@
+@media (max-width: 740px)
+{
+    #demotext 
+{
+    font-size: 10vw;
+}
+header
+{
+    background-color: transparent;
+    border-bottom: none;
+}
+.logo
+{
+    font-size: 10vw;
+}    
+.container
+{
+    position: fixed;
+    right: 5vw;
+    top: 5vh;
+    z-index: 1000;
+}
+#checkbox-menu
+{
+    position: absolute;
+    opacity: 0;
+}
+label
+{
+    cursor: pointer;
+    position: fixed;
+    display: block;
+    height: 2.14vw;
+    width: 6.92vw;
+    z-index: 111;
+}
+label span
+{
+    position: absolute;
+    right: 5vw;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: #700000;
+    transition: 0.25s ease-in-out;
+}
+label span:nth-child(1)
+{
+    top: 0;
+}
+label span:nth-child(2)
+{
+    top: 8px;
+}
+label span:nth-child(3)
+{
+    top: 16px;
+}
+#checkbox-menu:checked + label span:nth-child(1)
+{
+transform: rotate(-45deg);
+top: 8px;
+}
+#checkbox-menu:checked + label span:nth-child(2)
+{
+    opacity: 0;
+}
+#checkbox-menu:checked + label span:nth-child(3)
+{
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+nav
+{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 0vh;
+    transform: translateX(100vw);
+    transition: 0.3s all ease-in-out;
+    z-index: 10;
+}
+.logo
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 5vh;
+    padding: 2vw;
+}
+.open
+{
+    transform: translateX(0vw);
+}
+nav ul
+{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+nav ul li a
+{
+    margin: 25px;
+    text-decoration: none;
+    font-size: 5vw;
+    color: rgb(36, 36, 36);
+}
+nav ul li a:hover
+{
+    color: rgba(36, 36, 36, 0.514);
+}
+
+button
+{
+    font-size: 3.5VW;
+    padding: 1.73vw 5.36vw;
+    margin: 3.9vw 0.48vw;
+    letter-spacing: 0.19vw;
+    text-transform: capitalize;
+    box-shadow: 0 1.46vw 0.97vw rgba(0,0,0,0.4);
+}
+.cols0 .topline
+{
+    font-size: 8vw;
+}
+.cols0 h1
+{
+    font-size: 8vw;
+}
+.cols0 .multiText
+{
+    font-size: 7vw;
+}
+.cols0 p
+{
+    font-size: 5vw;
+}
+
+.imgbox
+{
+    width: 70vw;
+    height: 100vh;
+}
+
+.imgbox #splash
+{
+    height: auto;
+}
+#projetos
+{
+    height: auto;
+    padding-bottom: 2vh;
+}
+#myProjects
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh 0;
+}
+#sobreMim
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0;
+    gap: 5vh 0;
+ }
+ #sobreMim #h2
+{
+    width: 80%;
+    text-align: center;
+    font-size: 6vw;
+}
+#sobreMim h2
+{
+    font-size: 5vw;
+}
+#sobreMim span
+{
+    font-size: 3vw;
+    color: gray;
+}
+#sobreMim a
+{
+    font-size: 4vw;
+}
+.box
+{
+    position: relative;
+    width: 79.06vw;
+    height: 79.06vw;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    overflow: hidden;
+}
+#projetos
+{
+    padding-bottom: 10vh;
+}
+#habilidades
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+#container-abilities
+{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 5vh;
+
+}
+#habilidades #text
+{
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    font-size: 6vw;
+    text-align: center;
+    justify-content: center;
+}
+#habilidades #skills
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5vh;
+}
+#habilidades #title-skills
+{
+    font-size: 5vw;
+    width: 100%;
+}
+
+#habilidades img
+{
+    height: 25vw;
+    width: 25vw;
+    margin: auto;
+}
+
+footer
+{
+    font-size: 4vw;
+}
+}
