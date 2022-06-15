@@ -81,8 +81,7 @@ nav
     flex-direction: column;
     position: fixed;
     right: 0;
-    top: 0vh;
-    padding-top: 10vh;
+    top: 10vh;
     transform: translateX(100vw);
     transition: 0.3s all ease-in-out;
     z-index: 10;
