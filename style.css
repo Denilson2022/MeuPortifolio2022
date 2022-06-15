@@ -90,7 +90,7 @@ nav, ul, a:hover
 #sobreMim
 {
     height: 100vh;
-    background-color: #07001c;
+    background: linear-gradient(rgb(82, 62, 62), black);
 }
 #projetos
 {

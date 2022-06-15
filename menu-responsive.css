@@ -179,8 +179,9 @@ button
     text-align: center;
     font-size: 6vw;
 }
-#sobreMim h2
+#sobreMim #h2
 {
+    line-height: 6vw;
     font-size: 5vw;
 }
 #sobreMim span
@@ -204,6 +205,11 @@ button
 #projetos
 {
     padding-bottom: 10vh;
+}
+.project
+{
+    height: 45vh;
+    width: 80vw;
 }
 #habilidades
 {
