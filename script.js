@@ -26,7 +26,7 @@ function mouseCss(){
 }
 function mouseSass(){
     text.style.fontSize = "3vh"
-    text.innerHTML = "SASS é uma linguagem de extensão do CSS. A sua ideia é adicionar recursos especiais como variáveis, mixins, funções e operações etc. Torna o processo de desenvolvimento mais simples e eficiente."
+    text.innerHTML = "SASS é uma linguagem de extensão do CSS. A sua ideia é adicionar recursos especiais como variáveis, funções e operações etc."
     text.classList.add('hide')
     text.style.background = '#CC6699'
 
